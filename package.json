@@ -1,0 +1,11 @@
+{
+  "name": "submission-frontend-fundamental",
+  "version": "1.0.0",
+  "description": "a movie database website, for dicoding submission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maharta",
+  "license": "ISC"
+}
