@@ -4,7 +4,7 @@ A movie website app i created with movie-db api, in order to complete a Dicoding
 
 ## Installation
 
-you need the have NPM (and node) installed to be able to build the app. 
+you need the have NPM (and node) installed to be able to build the app.
 
 first, install the dependencies :
 
