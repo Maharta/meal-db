@@ -4,14 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movie-Database</title>
+    <title>Foody</title>
     <style>
+      /* importing google fonts*/
       @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
     </style>
+    <!-- using fontawesome library to get search icon-->
+    <script
+      src="https://kit.fontawesome.com/9b022c2c57.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-        <app-bar></app-bar>
+      <app-bar></app-bar>
     </header>
+
+    <main>
+      <search-bar></search-bar>
+      <p id="tip"><em>Tip: you can click on the meal to get the details!</em></p>
+      <div class="meals-container"></div>
+    </main>
   </body>
 </html>
