@@ -1,3 +1,6 @@
+@import "searchbar.css";
+@import "meals-container.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -8,16 +11,28 @@ body {
 }
 
 header {
+  color: white;
   padding: 20px;
-  background-color: rgb(135, 197, 226);
+  background-color: rgb(31, 86, 141);
   font-size: 16px;
 }
-.icon {
-  width: 50px;
-  margin-right: 16px;
+
+app-bar > h1 {
+  margin: 0 auto;
+  font-style: italic;
 }
 
 app-bar {
   display: flex;
-  align-items: center;
+  justify-content: center;
+}
+
+#tip {
+  margin-top: 24px;
+  text-align: center;
+}
+
+/* hide the tip when the user already click once on the meal item, configured in meal-item.js */
+.hide {
+  display: none;
 }
