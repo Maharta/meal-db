@@ -1,8 +1,9 @@
-import './styles/style.css';
-import Icon from './assets/movie.png';
-import './script/components/app-bar.js'
-
+import "./styles/style.css";
+import "./script/components/app-bar";
+import "./script/components/searchbar";
+import main from "./script/view/main";
 
 //  image for header
-const img = document.querySelector('img');
-img.setAttribute('src', Icon);
+
+
+main();
