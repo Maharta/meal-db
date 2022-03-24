@@ -1,6 +1,6 @@
-# Movie-db
+# Meal-db
 
-A movie website app i created with movie-db api, in order to complete a Dicoding class submission.
+A food website app i created with meal-db api, in order to complete a Dicoding class submission.
 
 ## Installation
 
