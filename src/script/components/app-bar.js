@@ -1,4 +1,3 @@
-/* eslint-disable require-jsdoc */
 class Appbar extends HTMLElement {
   connectedCallback() {
     this.render();
@@ -6,8 +5,7 @@ class Appbar extends HTMLElement {
 
   render() {
     this.innerHTML = `
-    <img class="icon" alt="a movie icon" />
-    <p>Movie-Database</p>`;
+    <h1>Food Database</h1>`;
   }
 }
 
