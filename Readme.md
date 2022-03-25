@@ -23,3 +23,11 @@ then open the ./dist file using http-server package.
 ```bash
 http-server ./dist/
 ```
+
+if you don't have http-server package yet, you can install it with
+
+```bash
+ npm install --global http-server 
+```
+
+to install http-server globally

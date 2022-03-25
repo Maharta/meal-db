@@ -13,8 +13,8 @@ class SearchBar extends HTMLElement {
     return this.querySelector("#searchElement").value;
   }
 
-  set value(value){
-    this.querySelector('#searchElement').value = value;
+  set value(value) {
+    this.querySelector("#searchElement").value = value;
   }
 
   render() {
