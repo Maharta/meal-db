@@ -21,5 +21,5 @@ npm run build
 then open the ./dist file using http-server package.
 
 ```bash
-http-server ./dist
+http-server ./dist/
 ```

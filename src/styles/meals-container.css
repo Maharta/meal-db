@@ -1,8 +1,13 @@
-.meals-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 30px;
-    gap: 20px;
+.meals-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
 }
 
+@media screen and (max-width: 1024px) {
+  .meals-container {
+    padding-bottom: 0;
+  }
+}

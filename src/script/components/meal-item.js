@@ -14,16 +14,14 @@ class MealItem extends HTMLElement {
     this._shadowRoot.innerHTML = `
         <style>
 
-    
-
-          h3{
+        h3{
             font-size: 24px;
             text-align: center;
             margin-bottom: 12px;
           }
         
         .food-image{
-            width: 300px;
+            max-width: 300px;
           }
         
         .meal{
@@ -68,7 +66,11 @@ class MealItem extends HTMLElement {
       padding: 20px 0;
       border-radius: 20px;
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      max-width: 700px
+      max-width: 700px;
+    }
+
+    .food-image{
+      max-width: 700px;
     }
 
     h3{
@@ -110,6 +112,13 @@ class MealItem extends HTMLElement {
       font-weight: bold;
       padding: 10px 20px;
     }
+
+    @media screen and (max-width: 1024px){
+      .meal, .food-image{
+        width: 100vw;
+      } 
+    }
+    
 
     </style>
     <div class="meal card">
