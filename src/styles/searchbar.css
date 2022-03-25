@@ -1,23 +1,23 @@
-.search-container{
-    padding: 24px 24px 0 24px;
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-  }
-  
-  #searchElement{
-    padding: 12px;
-    width: 600px;
-    border-radius: 12px;
-  }
-  
-  #searchButton{
-    background: transparent;
-    border: none;
-    padding: 8px;
-    border-radius: 20%;
-  }
-  
-  #searchButton:active{
-    background: rgb(101, 139, 177);
-  }
+.search-container {
+  padding: 24px 24px 0 24px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+#searchElement {
+  padding: 12px;
+  width: 600px;
+  border-radius: 12px;
+}
+
+#searchButton {
+  background: transparent;
+  border: none;
+  padding: 8px;
+  border-radius: 20%;
+}
+
+#searchButton:active {
+  background: rgb(101, 139, 177);
+}

@@ -126,8 +126,8 @@ class MealItem extends HTMLElement {
             <h4 class="category card">${meal.strCategory}</h4>
             <h4>Ingredients</h4>
             <hr>
-            <ol class="ingredients">
-            </ol>
+            <ul class="ingredients">
+            </ul>
             <h4>Instructions</h4>
             <hr>
             <div class="instruction-container">

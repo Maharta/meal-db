@@ -11,13 +11,6 @@ class DataSource {
       })
       .catch((e) => e);
   }
-
-  static searchMealByCategory(query) {
-    return fetch(`https://themealdb.com/api/json/v1/1/filter.php?c=${query}`)
-      .then((response) => response.json())
-      .then(jsonResponse => Promise.resolve(jsonResponse))
-      .catch(e => e); 
-  }
 }
 
 export default DataSource;
